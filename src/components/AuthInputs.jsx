@@ -42,7 +42,7 @@ export default function AuthInputs() {
             // style={{
             //   backgroundColor: emailNotValid ? 'salmon' : 'transparent',
             // }}
-            $invalid={emailNotValid}
+            invalid={emailNotValid}
             onChange={(event) => handleInputChange('email', event.target.value)}
           />
           <Input
@@ -51,7 +51,7 @@ export default function AuthInputs() {
             // style={{
             //   backgroundColor: emailNotValid ? 'salmon' : 'transparent',
             // }}
-            $invalid={passwordNotValid}
+            invalid={passwordNotValid}
             onChange={(event) =>
               handleInputChange('password', event.target.value)
             }
